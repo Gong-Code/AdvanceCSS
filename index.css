@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;    
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container{
+    width: 520px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+.accent-text{
+    display: block;
+}
+
+h1 .accent-text{
+    font-size: 80px;
+}
+
+h2 .accent-text{
+    font-size: 60px;
+}
+
+.accent-text,
+.name,
+time{
+    font-weight: 900;
+    color: #99D930;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h1,
+h2{
+    font-weight: 300;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2{
+    font-size: 42px;
+    margin-top: 5px;
+}
+
+.headings h2{
+    border-top: 1px  solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.small-text{
+    font-size: 16px;
+    margin-top: 0;
+}
+
+a{
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus{
+    color: #131313;
+}
+
+/* Layout */
+
+header,
+section{
+    padding: 100px 0;
+    width: 100%;
+}
+
+.inverse{
+    background-color: #252525;
+    color:#fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus{
+    background: #fff;
+    color: #252525;
+}
+
+.about-me{
+    background-color: #fff;
+}
+
+
+.btn{
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    color: #252525;
+    background: #99D930;
+}
+
+.btn:hover,
+.btn:focus{
+    background: #252525;
+    color: #fff;
+}
+
